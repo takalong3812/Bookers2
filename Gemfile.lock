@@ -88,6 +88,9 @@ GEM
       warden (~> 1.2.3)
     erubi (1.11.0)
     ffi (1.15.5)
+    fontawesome-rails (4.0.3.2)
+      actionpack (>= 3.1)
+      railties (>= 3.1)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -230,6 +233,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   devise
+  fontawesome-rails
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
   listen (~> 3.3)
