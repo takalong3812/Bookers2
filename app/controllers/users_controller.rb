@@ -6,7 +6,12 @@ class UsersController < ApplicationController
   end
 
   def edit
-  end
+    @user= User.find(params[:id])
+    if @user == current_user
+    else
+     redirect_to user_path(current_user)
+    end
+  end  
   
   def index
   end
