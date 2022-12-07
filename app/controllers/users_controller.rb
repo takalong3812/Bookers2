@@ -17,6 +17,9 @@ class UsersController < ApplicationController
   end  
   
   def index
+    @users =User.all
+    @user =current_user
+    @new_book =Book.new
   end
   
   def update
